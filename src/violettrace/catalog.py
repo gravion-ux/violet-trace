@@ -1,3 +1,5 @@
+import copy
+
 CATALOG = [
   {"id":"PL001","name":"Repeated authentication failures","technique":"T1110","event_type":"auth_failure",
    "description":"Synthetic event fixture for validating failed-login telemetry."},
@@ -7,4 +9,5 @@ CATALOG = [
    "event_type":"service_created","description":"Synthetic fixture for service-installation telemetry."}
 ]
 def list_scenarios():
-    return CATALOG.copy()
+    # Deep copy so callers cannot mutate the shared catalog.
+    return copy.deepcopy(CATALOG)
