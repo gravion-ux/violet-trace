@@ -1,5 +1,9 @@
 # VioletTrace
 
+![Demo](docs/demo.png)
+
+*Demo: Synthetic telemetry fixtures generated for coverage reporting.*
+
 > A safe purple-team validation harness for defensive telemetry and detection-rule tests.
 
 **Status:** MVP scaffold / research prototype. Not production-certified.
