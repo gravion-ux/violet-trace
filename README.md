@@ -1,4 +1,5 @@
 # VioletTrace
+[![CI](https://github.com/gravion-ux/violet-trace/actions/workflows/ci.yml/badge.svg)](https://github.com/gravion-ux/violet-trace/actions/workflows/ci.yml)
 
 ![Demo](docs/demo.png)
 
